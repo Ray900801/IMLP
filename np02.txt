@@ -1,0 +1,6 @@
+import numpy as np
+grades = np.array([85,70,80])
+weights = np.array([0.2, 0.35, 0.45])
+
+y=grades*weights
+print("the grade list is ",y)

@@ -1,0 +1,18 @@
+L = np.array([3, -2, -1, 5, 7, -3])
+
+c = np.array([True,False,False,True,True,False])
+
+L = np.array([3, -2, -1, 5, 7, -3])
+L_1=(L>0)
+print(L_1)
+
+L = np.array([3, -2, -1, 5, 7, -3])
+c = np.array([True,False,False,True,True,False])
+list_1=[]
+for i in range(5):
+    if c[i]==True:
+        list_1.append(L[i])
+        
+L=np.array(list_1)
+
+print(L)    

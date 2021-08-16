@@ -1,0 +1,19 @@
+x = range(20)
+y = np.random.randn(20)
+plt.plot(x,y)
+plt.show
+
+x = range(20)
+y = np.random.randn(20)
+plt.plot(x,y,marker='^')
+plt.show
+
+x = np.linspace(0, 10, 200)
+y = np.sin(5*x) / (1+x**2)
+plt.plot(x, y, lw=3, marker='o', ms=10)
+plt.show
+
+x = np.linspace(0, 10,200)
+y = np.sin(5*x) / (1+x**2)
+plt.plot(x, y, lw=3, marker='o', ms=10, markevery=10)
+plt.show

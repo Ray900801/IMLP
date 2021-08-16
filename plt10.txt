@@ -1,0 +1,16 @@
+ax = plt.gca()
+ax.set_facecolor('#69b8bb')
+ax.set_xlim(-6,6)
+ax.set_ylim(-1.2,1.2)
+plt.plot(x,y,lw=5,c='white')
+plt.show
+
+ax = plt.gca()
+ax.set_facecolor('#69b8bb')
+ax.set_xlim(-6,6)
+ax.set_ylim(-1.2,1.2)
+
+ax.spines['bottom'].set_position(('data',0))
+ax.spines['left'].set_position(('data',0))
+plt.plot(x,y,lw=5,c='white')
+plt.show

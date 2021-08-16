@@ -1,0 +1,31 @@
+plt.bar(range(1,6), np.random.randint(1,30,5))
+plt.show
+
+plt.bar(np.arange(0.6, 5), np.random.randint(1,30,5))
+plt.show
+
+x = np.arange(1,6)
+plt.bar(x - 0.4, [3, 10, 8, 12, 6], width=0.4, ec='none', fc='#e63946')
+plt.bar(x, [6, 3, 12, 5, 8], width=0.4, ec='none', fc='#7fb069')
+plt.show
+
+A = np.random.randint(2,15,5)
+B = np.random.randint(2,15,5)
+C = np.random.randint(2,15,5)
+
+plt.bar(x, A, fc='#e63946', ec='none')
+plt.bar(x, B, fc='#7fb069', ec='none',bottom=A)
+plt.bar(x, C, fc='#e55934', ec='none',bottom=A+B)
+plt.show
+
+A = np.random.randint(2,15,5)
+plt.barh(x, A, fc='#e63946', ec='none')
+plt.show
+
+x = np.arange(0.6,6)
+A = np.random.randint(1,15,6)
+B = np.random.randint(1,15,6)
+
+plt.barh(x, A, fc='#e63946', ec='none')
+plt.barh(x, -B, fc='#7fb069', ec='none')
+plt.show

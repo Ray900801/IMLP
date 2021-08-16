@@ -1,0 +1,2 @@
+plt.plot(x,y, c='r', lw=3)
+plt.show

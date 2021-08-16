@@ -1,0 +1,15 @@
+x = np.linspace(0, 10, 100)
+
+plt.subplot(221) # 分成2X2 佔用第一個
+plt.plot(x, np.sin(x), c='#e63946', lw=3)
+
+plt.subplot(222) # 分成2X2 佔用第一個
+plt.plot(x,np.sin(3*x), c='#7fb069', lw=3)
+
+plt.subplot(223) # 分成2X2 佔用第一個
+plt.scatter(x, np.random.randn(100), c='#daa73e', s=50, alpha=0.5)
+
+plt.subplot(224) # 分成2X2 佔用第一個
+plt.bar(range(10), np.random.randint(1,30,10), fc='#e55934')
+
+plt.show

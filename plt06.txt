@@ -1,0 +1,4 @@
+x = np.linspace(-10,10,200)
+y = np.sinc(x)
+plt.plot(x,y,c="g")
+plt.show

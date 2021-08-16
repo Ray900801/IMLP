@@ -1,0 +1,12 @@
+import numpy as np
+A=np.random.rand(50)
+print("the list is \n",A)
+
+y=np.shape(A)
+print("the shape of A is ",y)
+
+y=A.reshape(10,5)
+print(y)
+
+z=np.ravel(A)
+print(z)

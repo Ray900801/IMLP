@@ -1,0 +1,32 @@
+import numpy as np
+y=np.zeros((5,5))
+print(y)
+
+import numpy as np
+z=np.ones((5,5))
+print(z)
+
+import numpy as np
+i=input("input a imterger")
+index=int(i)
+x=np.zeros((index,index))
+for j in range(index):
+    x[j,j]=1
+
+print(x)
+
+import numpy as np
+start=int(input("start:"))
+end=int(input("end"))
+n=int(input("number"))
+ave=(start-end)/(n-1)
+A=np.zeros(n)
+for i in range(n):
+    A[i]=-ave*i
+    
+print(A)
+
+import numpy as np
+x=np.arange(1,10,0.2)
+print("it's show time\n",x)
+    

@@ -1,0 +1,27 @@
+import numpy as np
+grades = [77, 85, 56, 90, 66]
+x=np.array(grades)
+mean=np.mean(x)
+sum=np.sum(x)
+print("average=",mean," sum=",sum)
+
+y=np.max(x)
+print("max=",y)
+
+y=np.max(x)
+print("max=",y)
+
+z=np.std(x)
+print("std=",z)
+
+import numpy as np
+prices = [1096.95, 596.95, 896.95]
+x=np.array(prices)
+y=x*31.71
+print(y)
+
+import numpy as np
+prices = [1096.95, 596.95, 896.95]
+x=np.array(prices)
+y=x*31.71
+print(y)

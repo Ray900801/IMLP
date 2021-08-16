@@ -1,0 +1,6 @@
+plt.xkcd()
+
+x = np.linspace(-5, 5, 200)
+y = np.sin(2*x) + 0.2*x
+plt.plot(x,y)
+plt.show

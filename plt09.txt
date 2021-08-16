@@ -1,0 +1,32 @@
+x = np.linspace(-2*np.pi, 2*np.pi, 200)
+y = np.sin(x)
+plt.title("My lovely sin function")
+plt.xlabel('x-axes')
+plt.ylabel('values')
+plt.plot(x,y,lw=3)
+plt.show
+
+plt.xlim(-6,6)
+plt.ylim(-1,1)
+plt.plot(x,y,lw=3)
+plt.show
+
+xv = np.linspace(0, 2*np.pi, 100)
+yv = np.sin(xv)
+plt.plot(xv,yv,lw=3)
+plt.xticks([0,np.pi/2,np.pi,3*np.pi/2,2*np.pi],['$0$','$\pi/2$','$\pi$','$3*\pi/2$','$-2\pi$'])
+plt.show
+
+plt.xlim(-6,6)
+plt.ylim(-1.2,1.2)
+plt.plot(x, np.sin(y), lw=3, label='$\sin$')
+plt.plot(x, np.cos(x), lw=3, label='$\cos$')
+plt.legend()
+plt.show
+
+plt.xlim(-6,6)
+plt.ylim(-1.2,1.2)
+plt.plot(x, np.sin(y), lw=3, label='$\sin$')
+plt.plot(x, np.cos(x), lw=3, label='$\cos$')
+plt.legend(loc=1)
+plt.show
